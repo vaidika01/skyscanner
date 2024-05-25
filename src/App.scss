@@ -1,0 +1,42 @@
+@import "~bpk-mixins";
+
+@mixin container {
+  max-width: $bpk-breakpoint-desktop;
+  margin: 0 auto;
+}
+
+.App {
+  text-align: center;
+
+  &__header {
+    background-color: $bpk-color-sky-blue;
+    background-image: $bpk-primary-gradient;
+    color: $bpk-color-white;
+
+    @include bpk-box-shadow-sm;
+  }
+
+  &__header-inner {
+    @include container;
+  }
+
+  &__main {
+    @include container;
+  }
+}
+
+.calendar-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+#calendar {
+  margin-top: 20px;
+}
+
+.calendar-content {
+  margin-top: 20px;
+}

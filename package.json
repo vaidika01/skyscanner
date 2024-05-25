@@ -1,0 +1,38 @@
+{
+  "name": "skyscanner",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@skyscanner/backpack-react-scripts": "11.1.1",
+    "@skyscanner/backpack-web": "^34.4.0",
+    "@skyscanner/cra-template-backpack": "0.0.9",
+    "bpk-mixins": "^42.0.1",
+    "bpk-stylesheets": "^9.0.17",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "start-ssr": "react-scripts start-ssr",
+    "build": "react-scripts build",
+    "build-ssr": "react-scripts build-ssr",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "description": "> _This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) + > [backpack-react-scripts](https://github.com/Skyscanner/backpack-react-scripts/tree/master/packages/react-scripts)._ > It is very similar to one that you would create using [Create React App](https://github.com/facebook/create-react-app) > without [backpack-react-scripts](https://github.com/Skyscanner/backpack-react-scripts/tree/master/packages/react-scripts), > so please refer to [it's documentation](https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md) > for more usage information.",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC"
+}
