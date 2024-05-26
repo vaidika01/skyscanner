@@ -73,15 +73,23 @@ export default class App extends Component {
         type: CALENDAR_SELECTION_TYPE.single,
         date: null,
       },
+      dateInputValue: "",
     };
   }
 
   handleDateSelect = (date) => {
     this.setState({
       selectionConfiguration: {
-        type: this.props.selectionConfiguration.type,
+        ...this.state.selectionConfiguration,
         date: date,
       },
+      dateInputValue: date ? date.toString() : "",
+    });
+  };
+
+  handleInputChange = (event) => {
+    this.setState({
+      dateInputValue: event.target.value,
     });
   };
 
@@ -106,6 +114,7 @@ export default class App extends Component {
               type={INPUT_TYPES.text}
               name="date"
               value={(this.state.selectionConfiguration.date || "").toString()}
+              onChange={this.handleInputChange}
               placeholder="Departure date"
             />
             <BpkCalendar
