@@ -12,7 +12,7 @@ To set up the project locally, follow these steps:
 
    ```bash
    git clone https://github.com/vaidika01/skyscanner
-   cd flight-schedule-app
+   cd skyscanner
 
    ```
 
@@ -25,10 +25,10 @@ To set up the project locally, follow these steps:
 
 3. Start the development server:
 
-```bash
+  ```bash
   npm start
 
-```
+  ```
 
 ## Usage
 
@@ -42,4 +42,4 @@ After installation:
 1. Job Simulation Completed: Built a web application using React as a front-end engineer at Skyscanner.
 2. Backpack Library Integration: Developed a page for picking a travel date using Skyscanner’s open-source Backpack React
    library.
-3. Customization and Testing: Customized the application and ran automated tests to ensure it rendered properly.
+3. Customization and Testing: Customized the application and ran automated tests to ensure it was rendered properly.
